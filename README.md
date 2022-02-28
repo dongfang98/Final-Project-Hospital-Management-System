@@ -1,6 +1,7 @@
 # Project2-Administrator-System
 ## Data Structure Design
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
+
 ### People
 Relation People is an outer database containing information of citizens, it can be realized by getting legally access to the database of government.  
 This database contains ID, name and gender of a citizen. Where ID is the  major key.
