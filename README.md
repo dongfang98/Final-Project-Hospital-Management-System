@@ -4,6 +4,8 @@
 
 ## 4 Chat Module
 I use socket and SQLite3 to realize the function of P2P chat.  
+<img width="1723" alt="image" src="https://user-images.githubusercontent.com/78338843/156035093-7f5942b0-861c-4777-af1a-878d88e800fc.png">
+
 ### 4.1 Database
 SQLite3 is used.
 - Client-side runtime stores chat logs locally  
