@@ -1,39 +1,39 @@
 # Project2-Administrator-System
-## Data Structure Design
+## 1 Data Structure Design
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
 
-### People
+### 1.1 People
 Relation People is an outer database containing information of citizens, it can be realized by getting legally access to the database of government.  
 This database contains ID, name and gender of a citizen. Where ID is the  major key.
-### Patient
+### 1.2 Patient
 Relation Patient contains the information of patients, it is a private database maintained by hospital. Everyone who wants to make an appointment should create a patient account with his or her name, age, gender and ID. Each patient is assigned a PID as majot key.
-### Staff
+### 1.3 Staff
 Relation Staff contains the information of staffs, it is a private database maintained by hospital. Each staff of hospital should have a staff account with his or her name, age, gender, ID,Birth, address and phone number. Each staff has a unique SID. Staff's account also specifies his or her duty and sector.
-### Sector
+### 1.4 Sector
 This relation contains the information of sectors in hospital.
-### Duty
+### 1.5 Duty
 This relation contains duty of a staff.
-### Appointment
+### 1.6 Appointment
 Every account in Patient database can make appointment, appointments are saved in Appointment database. The database specifies the date of appointment as well as the information of a patient. The major key of this database is AID.
-### Appointment Type
+### 1.7 Appointment Type
 To make the system more flexible, my system surpport a Appointment Type database. It specifies the type of each appointment.Each operation in Appointment database will result in changes in Appointment Type.
-### Appointment Calendar
+### 1.8 Appointment Calendar
 This database shows the number of appointment avaliable for a specific type everyday, the major key of this database is Date and AType. The system will first check if an specific appointment is availiable before adding it into the Appointment database. Each operation in Appointment database will result in changes in Appointment Calendar.
-### Diagnose
+### 1.9 Diagnose
 Appointment will be processed and it result is saved in Diagnose database, this database contains diagnoses from doctors and may lead to Physical Examination. The major key of this database is DID.
-### Physical Examination
+### 1.10 Physical Examination
 Appointments for Physical Examination are saved in Physical Examination database, it specifies the type and date of examination. Before an Appointment is made, system should check Equipment relation to see if specific machine is avaliable.
-### Medical Equipment Management
+### 1.11 Medical Equipment Management
 This database assign equipment for each examination, it connect the Physical Examination database and Equipment database.
-### Equipment
+### 1.12 Equipment
 This database shows the avaliability of equipments.
-### Blood Pressure
+### 1.13 Blood Pressure
 This database contains the result of Blood Pressure test.
-### Pulse
+### 1.14 Pulse
 This database contains the result of Pulse test.
-### Glucometer
+### 1.15 Glucometer
 This database contains the result of Glucometer test.
-### Thermometer
+### 1.16 Thermometer
 This database contains the result of Thermometer test.
 
 ## 4 Chat Module
