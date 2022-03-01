@@ -1,5 +1,6 @@
 # Project2-Administrator-System
-## 1 Data Structure Design
+## 1 Database
+Database schematic diagram  
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
 I use Mysql to build the database:  
 <img width="1352" alt="image" src="https://user-images.githubusercontent.com/78338843/156080393-99e0d9c9-bfec-4527-8f0d-a8d8807ee1dd.png">
