@@ -1,5 +1,8 @@
 # Project2-Administrator-System
 ## 1 User Story
+ - Patients
+ - Medical Professionals (Nurses and Doctors)
+ - Administrators
 
 ## 2 Environment
 ## 3 Database Schematic
