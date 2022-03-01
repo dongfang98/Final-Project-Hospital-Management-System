@@ -6,7 +6,33 @@
   - Patient can book an appointment with the MP
   - Patient can view their medical measurements
 - Medical Professionals (Nurses and Doctors)
+  - Browse Patients
+  - Assign a medical device to a Patient
+  - Assign Alert and scheduling for medical measurement, e.g., 
+Patient to measure blood pressure daily.  MP will receive an alert if it not done. 
+Temperature is higher or lower than a value.  MP will get an alert if the measurement is outside acceptable range
+  - MP can input data for any patient
+  - MP can chat with patients using text, voice or videos.
+  - MP can read transcripts of Patient uploaded videos and messages
+  - MP can search for keywords in messages and chats
+  - MP have a calendar where they can show open time slots for appointments
+  - MP can see all appointments booked at any time
 - Administrators
+  - Add users to the system:
+  - Users should be added to the system and cannot register before being added to the system
+  - Assign and Change Roles to users
+Patient
+Nurse
+Doctor
+Admin
+Family member
+  - A user can have different roles, e.g., 
+a user can be a patient and/or a doctor
+A user can be a family member and/or a patient
+  - Provide interfaces to third party medical device makers (Thermometer, Pulse, Blood pressure, Glucometer, etc.) to have their devices feed data to the system
+  - Provide int
+  - Ability to disable or enable any device maker or application developer
+
 
 ## 2 Environment
 ## 3 Database Schematic
