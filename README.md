@@ -8,9 +8,9 @@
 - Medical Professionals (Nurses and Doctors)
   - Browse Patients
   - Assign a medical device to a Patient
-  - Assign Alert and scheduling for medical measurement, e.g., 
-Patient to measure blood pressure daily.  MP will receive an alert if it not done. 
-Temperature is higher or lower than a value.  MP will get an alert if the measurement is outside acceptable range
+  - Assign Alert and scheduling for medical measurement, e.g.,   
+Patient to measure blood pressure daily.  MP will receive an alert if it not done.   
+Temperature is higher or lower than a value.  MP will get an alert if the measurement is outside acceptable range. 
   - MP can input data for any patient
   - MP can chat with patients using text, voice or videos.
   - MP can read transcripts of Patient uploaded videos and messages
@@ -18,14 +18,14 @@ Temperature is higher or lower than a value.  MP will get an alert if the measur
   - MP have a calendar where they can show open time slots for appointments
   - MP can see all appointments booked at any time
 - Administrators
-  - Add users to the system:
-  - Users should be added to the system and cannot register before being added to the system
-  - Assign and Change Roles to users
-Patient
+  - Add users to the system:  
+  - Users should be added to the system and cannot register before being added to the system. 
+  - Assign and Change Roles to users  
+Patient   
 Nurse
-Doctor
-Admin
-Family member
+Doctor  
+Admin  
+Family member. 
   - A user can have different roles, e.g., 
 a user can be a patient and/or a doctor
 A user can be a family member and/or a patient
