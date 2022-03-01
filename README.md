@@ -1,8 +1,12 @@
 # Project2-Administrator-System
 ## 1 User Story
- - Patients
- - Medical Professionals (Nurses and Doctors)
- - Administrators
+- Patients
+  - Patient can enter measurement at any time
+  - Patient can write a text or upload video or voice message to the MP
+  - Patient can book an appointment with the MP
+  - Patient can view their medical measurements
+- Medical Professionals (Nurses and Doctors)
+- Administrators
 
 ## 2 Environment
 ## 3 Database Schematic
