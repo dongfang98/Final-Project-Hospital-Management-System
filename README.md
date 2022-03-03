@@ -35,6 +35,16 @@ A user can be a family member and/or a patient
 
 
 ## 2 Environment
+```
+Java 1.8
+Python 3.8
+Mysql 8.0.22
+Navicat 16.0.8
+Tomcat 8.5
+```
+
+## 3 
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156493283-a0e78a48-3497-4805-aba2-0afbc33bfdc6.png">
 
 
 ## 3 Database Schematic
