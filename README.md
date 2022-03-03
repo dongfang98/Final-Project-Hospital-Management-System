@@ -43,8 +43,30 @@ Navicat 16.0.8
 Tomcat 8.5
 ```
 
-## 3 
+## 3 Hospital Management System
+### 3.1
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156493283-a0e78a48-3497-4805-aba2-0afbc33bfdc6.png">
+
+Roles  
+```
+<option value="1">Administrator</option>
+<option value="2">Patient</option>
+<option value="3">Doctor/Nurse</option>
+```
+### 3.2 Patient
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495997-98d4758e-454a-469b-86bc-48c854678517.png">
+
+My Appointment
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495863-6de7d6c8-8a5a-4dd6-abb3-664e073b38e8.png">
+
+Personal Information
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495916-f2e01248-b2bf-450e-9cf4-88320ada6ce9.png">
+
+Change Password
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495934-da7030ea-b9d5-4a70-adf5-20dcd2dacfc0.png">
+
+Doctor List
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495946-cfabceac-5b54-42f0-9afc-8233dd721ae3.png">
 
 
 ## 3 Database Schematic
@@ -52,6 +74,7 @@ Database relational table
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
 I use Mysql to build the database:  
 <img width="1352" alt="image" src="https://user-images.githubusercontent.com/78338843/156080393-99e0d9c9-bfec-4527-8f0d-a8d8807ee1dd.png">
+
 
  - 1.1 People  
 Relation People is an outer database containing information of citizens, it can be realized by getting legally access to the database of government.  
