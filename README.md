@@ -88,7 +88,7 @@ Personal Information
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156497982-0050476e-175c-4535-87c2-07af78f45b00.png">
 
 
-## 3 Database Schematic
+## 4 Database Schematic
 Database relational table
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
 I use Mysql to build the database:  
@@ -129,17 +129,17 @@ This database contains the result of Glucometer test.
  - 1.16 Thermometer  
 This database contains the result of Thermometer test.
 
-## 4 Chat Module
+## 5 Chat Module
 I use socket and SQLite3 to realize the function of P2P chat.  
 <img width="1723" alt="image" src="https://user-images.githubusercontent.com/78338843/156035093-7f5942b0-861c-4777-af1a-878d88e800fc.png">
-### 4.1 Database
+### 5.1 Database
 SQLite3 is used.
 - Client-side runtime stores chat logs locally  
 - Does not store data on server side  
-### 4.2 Client side
+### 5.2 Client side
 - Show information about users who entered and exited the chat room  
 - Displays the content of the chat between users  
 - Type "quit" to exit the chat  
-### 4.3 Server side
+### 5.3 Server side
 - Displays information about users who entered and exited the chat room  
 - Does not display user chat content  
