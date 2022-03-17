@@ -1,5 +1,5 @@
-# Project2-Administrator-System
-I implement some basic functions of the Hospital Management System as a Java Web application, and deploy it to AWS.
+# Project2-Hospital-Management-System
+I implement some basic functions as a Java Web application, and deploy it to AWS.
 
 ## 1 User Story
 - Patients 
@@ -40,7 +40,9 @@ IntelliJ IDEA 2020.2.1,
 ```
 
 ## 3 Hospital Management System (Functions I Implemented)
-### 3.1
+### 3.1 Sign in Page
+  - Old user can select Role(Admin/Patient/Doctor) and input User Name/ Password/ Verification Code to sign in  
+  - New user can click the 'Create Account' Button and input their personal information to create an account. Personal information includes Role / Portrait / Date of birth / User name / Name / Address / Password / Gender / Phone / Email
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156493283-a0e78a48-3497-4805-aba2-0afbc33bfdc6.png">
 
 Roles  
