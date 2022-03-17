@@ -1,38 +1,33 @@
 # Project2-Administrator-System
-## 1 User Story
-- Patients
-  - Patient can enter measurement at any time
-  - Patient can write a text or upload video or voice message to the MP
-  - Patient can book an appointment with the MP
-  - Patient can view their medical measurements
-- Medical Professionals (Nurses and Doctors)
-  - Browse Patients
-  - Assign a medical device to a Patient
-  - Assign Alert and scheduling for medical measurement, e.g.,   
-Patient to measure blood pressure daily.  MP will receive an alert if it not done.   
-Temperature is higher or lower than a value.  MP will get an alert if the measurement is outside acceptable range. 
-  - MP can input data for any patient
-  - MP can chat with patients using text, voice or videos.
-  - MP can read transcripts of Patient uploaded videos and messages
-  - MP can search for keywords in messages and chats
-  - MP have a calendar where they can show open time slots for appointments
-  - MP can see all appointments booked at any time
-- Administrators
-  - Add users to the system:  
-  - Users should be added to the system and cannot register before being added to the system. 
-  - Assign and Change Roles to users  
-Patient   
-Nurse
-Doctor  
-Admin  
-Family member. 
-  - A user can have different roles, e.g., 
-a user can be a patient and/or a doctor
-A user can be a family member and/or a patient
-  - Provide interfaces to third party medical device makers (Thermometer, Pulse, Blood pressure, Glucometer, etc.) to have their devices feed data to the system
-  - Provide int
-  - Ability to disable or enable any device maker or application developer
+I implement some basic functions of the Hospital Management System as a Java Web application, and deploy it to AWS.
 
+## 1 User Story
+- Patients 
+  - See doctor list and make appointments with them
+  - Manage/cancel their appointments 
+  - Modify their own personal information and change password
+  - View their medical measurements
+  - Check the hospital notices
+  - Chat with medical professionals
+
+- Medical Professionals (Nurses and Doctors)
+  - Browse patient list and make appointments with them
+  - MP can see all appointments booked at any time
+  - Manage/cancel their appointments 
+  - Assign medical measurements to appointments 
+  - Assign medical history to patients
+  - Modify their own personal information and change password  
+  - Check the hospital notices
+  - Chat with patients
+
+- Administrators
+  - Modify their own personal information and change password  
+  - See log history of all the users
+  - Manage doctor list, add/delete/modify their information
+  - Manage patient list, add/delete/modify their information
+  - Add/delete departments of the hospital
+  - Manage appointment list
+  - Post a notice on the bulletin board
 
 ## 2 Environment
 ```
@@ -41,9 +36,10 @@ Python 3.8
 Mysql 8.0.22
 Navicat 16.0.8
 Tomcat 8.5
+IntelliJ IDEA 2020.2.1,
 ```
 
-## 3 Hospital Management System
+## 3 Hospital Management System (Functions I Implemented)
 ### 3.1
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156493283-a0e78a48-3497-4805-aba2-0afbc33bfdc6.png">
 
