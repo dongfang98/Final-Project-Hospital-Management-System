@@ -57,33 +57,36 @@ Tomcat: https://tomcat.apache.org/download-80.cgi
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156493283-a0e78a48-3497-4805-aba2-0afbc33bfdc6.png">
 
 ### 3.2 Patient
+  - Patients' homepage, with dashboard and local time.  
+Three functions can be found on the left: Appointment List, Patient Information and Doctor List.
+You can also see the hospital's notice here.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495997-98d4758e-454a-469b-86bc-48c854678517.png">
 
-My Appointment
+  - My Appointment
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495863-6de7d6c8-8a5a-4dd6-abb3-664e073b38e8.png">
 
-Personal Information
+  - Personal Information
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495916-f2e01248-b2bf-450e-9cf4-88320ada6ce9.png">
 
-Change Password
+  - Change Password
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495934-da7030ea-b9d5-4a70-adf5-20dcd2dacfc0.png">
 
-Doctor List
+  - Doctor List
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495946-cfabceac-5b54-42f0-9afc-8233dd721ae3.png">
 
 ### 3.3 Doctor/Nurse
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498534-010d978c-2d5f-4ad7-b72c-e15c63e2b403.png">
 
-Patient List
+  - Patient List
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498557-647069c8-d018-4e1a-a109-40876f0b677e.png">
 
-Appointment
+  - Appointment
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498576-682a938f-3dbf-4bb3-afab-67077ac55c5d.png">
 
-Medical List
+  - Medical List
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498663-dc30a430-3f85-4e72-9328-df777eb81870.png">
 
-Personal Information
+  - Personal Information
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498722-5448f8ab-3119-4bbc-89e8-af1aa3c68989.png">
 
 
@@ -92,9 +95,9 @@ Personal Information
 
 
 ## 4. Database Schematic
-Database relational table
+  - Database relational table
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
-I use Mysql to build the database:  
+  - I use Mysql to build the database:  
 <img width="1352" alt="image" src="https://user-images.githubusercontent.com/78338843/156080393-99e0d9c9-bfec-4527-8f0d-a8d8807ee1dd.png">
 
 
