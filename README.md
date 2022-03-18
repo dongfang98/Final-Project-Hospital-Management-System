@@ -1,7 +1,7 @@
 # Project2-Hospital-Management-System
 I implement some basic functions as a Java Web application, and deploy it to AWS.
 
-## 1 User Story
+## 1. User Story
 - Patients 
   - See doctor list and make appointments with them
   - Manage/cancel their appointments 
@@ -29,7 +29,7 @@ I implement some basic functions as a Java Web application, and deploy it to AWS
   - Manage appointment list
   - Post a notice on the bulletin board
 
-## 2 Environment
+## 2. Environment
 ```
 Java 1.8
 Python 3.8
@@ -38,19 +38,24 @@ Navicat 16.0.8
 Tomcat 8.5
 IntelliJ IDEA 2020.2.1,
 ```
+Open 'hospital_layui.sql' in Navicat, and connect to the server.  
+Edit configurations in IDEA with Tomcat in path run project, it will be shown in the browser.  
+### Resources:
+Navicat: https://www.navicat.com/en/download/navicat-for-mysql  
+Tomcat: https://tomcat.apache.org/download-80.cgi
 
 ## 3 Hospital Management System (Functions I Implemented)
 ### 3.1 Sign in Page
   - Old user can select Role(Admin/Patient/Doctor) and input User Name/ Password/ Verification Code to sign in  
-  - New user can click the 'Create Account' Button and input their personal information to create an account. Personal information includes Role / Portrait / Date of birth / User name / Name / Address / Password / Gender / Phone / Email
-<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156493283-a0e78a48-3497-4805-aba2-0afbc33bfdc6.png">
-
-Roles  
+  - New user can click the 'Create Account' Button and input their personal information to create an account. Personal information includes Role / Portrait / Date of birth / User name / Name / Address / Password / Gender / Phone / Email  
+  - Roles:  
 ```
 <option value="1">Administrator</option>
 <option value="2">Patient</option>
 <option value="3">Doctor/Nurse</option>
 ```
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156493283-a0e78a48-3497-4805-aba2-0afbc33bfdc6.png">
+
 ### 3.2 Patient
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495997-98d4758e-454a-469b-86bc-48c854678517.png">
 
@@ -86,45 +91,45 @@ Personal Information
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156497982-0050476e-175c-4535-87c2-07af78f45b00.png">
 
 
-## 4 Database Schematic
+## 4. Database Schematic
 Database relational table
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
 I use Mysql to build the database:  
 <img width="1352" alt="image" src="https://user-images.githubusercontent.com/78338843/156080393-99e0d9c9-bfec-4527-8f0d-a8d8807ee1dd.png">
 
 
- - 1.1 People  
+ - 4.1 People  
 Relation People is an outer database containing information of citizens, it can be realized by getting legally access to the database of government.  
 This database contains ID, name and gender of a citizen. Where ID is the  major key.
- - 1.2 Patient  
+ - 4.2 Patient  
 Relation Patient contains the information of patients, it is a private database maintained by hospital. Everyone who wants to make an appointment should create a patient account with his or her name, age, gender and ID. Each patient is assigned a PID as majot key.
- - 1.3 Staff  
+ - 4.3 Staff  
 Relation Staff contains the information of staffs, it is a private database maintained by hospital. Each staff of hospital should have a staff account with his or her name, age, gender, ID,Birth, address and phone number. Each staff has a unique SID. Staff's account also specifies his or her duty and sector.
- - 1.4 Sector  
+ - 4.4 Sector  
 This relation contains the information of sectors in hospital.
- - 1.5 Duty  
+ - 4.5 Duty  
 This relation contains duty of a staff.
- - 1.6 Appointment  
+ - 4.6 Appointment  
 Every account in Patient database can make appointment, appointments are saved in Appointment database. The database specifies the date of appointment as well as the information of a patient. The major key of this database is AID.
- - 1.7 Appointment Type  
+ - 4.7 Appointment Type  
 To make the system more flexible, my system surpport a Appointment Type database. It specifies the type of each appointment.Each operation in Appointment database will result in changes in Appointment Type.
- - 1.8 Appointment Calendar  
+ - 4.8 Appointment Calendar  
 This database shows the number of appointment avaliable for a specific type everyday, the major key of this database is Date and AType. The system will first check if an specific appointment is availiable before adding it into the Appointment database. Each operation in Appointment database will result in changes in Appointment Calendar.
- - 1.9 Diagnose  
+ - 4.9 Diagnose  
 Appointment will be processed and it result is saved in Diagnose database, this database contains diagnoses from doctors and may lead to Physical Examination. The major key of this database is DID.
- - 1.10 Physical Examination  
+ - 4.10 Physical Examination  
 Appointments for Physical Examination are saved in Physical Examination database, it specifies the type and date of examination. Before an Appointment is made, system should check Equipment relation to see if specific machine is avaliable.
- - 1.11 Medical Equipment Management  
+ - 4.11 Medical Equipment Management  
 This database assign equipment for each examination, it connect the Physical Examination database and Equipment database.
- - 1.12 Equipment  
+ - 4.12 Equipment  
 This database shows the avaliability of equipments.
- - 1.13 Blood Pressure  
+ - 4.13 Blood Pressure  
 This database contains the result of Blood Pressure test.
- - 1.14 Pulse  
+ - 4.14 Pulse  
 This database contains the result of Pulse test.
- - 1.15 Glucometer  
+ - 4.15 Glucometer  
 This database contains the result of Glucometer test.
- - 1.16 Thermometer  
+ - 4.16 Thermometer  
 This database contains the result of Thermometer test.
 
 ## 5 Chat Module
