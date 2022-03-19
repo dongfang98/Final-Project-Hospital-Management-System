@@ -1,6 +1,6 @@
 # Project2-Hospital-Management-System
 I implement some basic functions as a Java Web application, and deploy it to AWS.  
-[1. User Story](# user story)  
+[1. User Story](#user)  
 [2. Entity versus procedural](#entity-versus-procedural)  
 [3. Status](#Status)  
 [4. Documentation](#Documentation)  
