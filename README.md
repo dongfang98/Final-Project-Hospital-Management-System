@@ -1,11 +1,11 @@
 # Project2-Hospital-Management-System
 I implement some basic functions as a Java Web application, and deploy it to AWS.  
-[1. User Story](#1.-user-story)  
-[2. Entity versus procedural](#entity-versus-procedural)  
-[3. Status](#Status)  
-[4. Documentation](#Documentation)  
-[5. Versioning](#Versioning)  
-## 1. User Story
+[1. User Story](#user-story)  
+[2. Environment](#environment)  
+[3. Hospital Management System](#hospital-management-system )  
+[4. Database Schematic](#database-schematic)  
+[5. Chat Module](#chat-module)  
+## User Story
 - Patients 
   - See doctor list and make appointments with them
   - Manage/cancel their appointments 
@@ -33,7 +33,7 @@ I implement some basic functions as a Java Web application, and deploy it to AWS
   - Manage appointment list
   - Post a notice on the bulletin board
 
-## 2. Environment
+## Environment
 ```
 Java 1.8
 Python 3.8
@@ -48,7 +48,8 @@ Edit configurations in IDEA with Tomcat in path run project, it will be shown in
 Navicat: https://www.navicat.com/en/download/navicat-for-mysql  
 Tomcat: https://tomcat.apache.org/download-80.cgi
 
-## 3 Hospital Management System (Functions I Implemented)
+## Hospital Management System 
+### (Functions I Implemented)
 ### 3.1 Sign in Page
   - Old user can select Role(Admin/Patient/Doctor) and input User Name/ Password/ Verification Code to sign in  
   - New user can click the 'Create Account' Button and input their personal information to create an account. Personal information includes Role / Portrait / Date of birth / User name / Name / Address / Password / Gender / Phone / Email  
@@ -113,7 +114,7 @@ You can also see the hospital's notice here.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156497982-0050476e-175c-4535-87c2-07af78f45b00.png">
 
 
-## 4. Database Schematic
+## Database Schematic
   - Database relational table
 <img width="1329" alt="image" src="https://user-images.githubusercontent.com/78338843/153800542-2ec4ce35-890c-44d6-a667-30b5b4bb8e29.png">  
   - I use Mysql to build the database:  
@@ -154,7 +155,7 @@ This database contains the result of Glucometer test.
  - 4.16 Thermometer  
 This database contains the result of Thermometer test.
 
-## 5 Chat Module
+## Chat Module
 I use socket and SQLite3 to realize the function of P2P chat.  
 <img width="1723" alt="image" src="https://user-images.githubusercontent.com/78338843/156035093-7f5942b0-861c-4777-af1a-878d88e800fc.png">
 ### 5.1 Database
