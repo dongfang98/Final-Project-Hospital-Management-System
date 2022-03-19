@@ -1,7 +1,11 @@
 # Project2-Hospital-Management-System
-I implement some basic functions as a Java Web application, and deploy it to AWS.
-
-## 1. User Story
+I implement some basic functions as a Java Web application, and deploy it to AWS.  
+[1. User Story](# user story)  
+[2. Entity versus procedural](#entity-versus-procedural)  
+[3. Status](#Status)  
+[4. Documentation](#Documentation)  
+[5. Versioning](#Versioning)  
+## User Story
 - Patients 
   - See doctor list and make appointments with them
   - Manage/cancel their appointments 
