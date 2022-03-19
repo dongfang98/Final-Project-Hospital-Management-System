@@ -62,35 +62,50 @@ Three functions can be found on the left: Appointment List, Patient Information 
 You can also see the hospital's notice here.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495997-98d4758e-454a-469b-86bc-48c854678517.png">
 
-  - My Appointment
+  - My Appointment  
+Appointment list with doctor's information and appointment's time. You can edit or cancel the appointment here.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495863-6de7d6c8-8a5a-4dd6-abb3-664e073b38e8.png">
 
-  - Personal Information
+  - Personal Information  
+Edit personal information, including Role / Portrait / Date of birth / User name / Name / Address / Password / Gender / Phone / Email  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495916-f2e01248-b2bf-450e-9cf4-88320ada6ce9.png">
 
-  - Change Password
+  - Change Password  
+User name and double checked password are needed.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495934-da7030ea-b9d5-4a70-adf5-20dcd2dacfc0.png">
 
-  - Doctor List
+  - Doctor List  
+All the doctors available are listed here, with their title and department.  
+Patients can make appointment here.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156495946-cfabceac-5b54-42f0-9afc-8233dd721ae3.png">
 
 ### 3.3 Doctor/Nurse
+  - Doctor's homepage, with dashboard and local time.  
+Three functions can be found on the left: Appointment List, Patient History and Doctor Information.
+You can also see the hospital's notice here.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498534-010d978c-2d5f-4ad7-b72c-e15c63e2b403.png">
 
   - Patient List
+Show all the patients applying for an appointment, can click the button to accept.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498557-647069c8-d018-4e1a-a109-40876f0b677e.png">
 
   - Appointment
+Show all the appointments, with information of the patient, can add test result here.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498576-682a938f-3dbf-4bb3-afab-67077ac55c5d.png">
 
   - Medical List
+Assign medical measurements to appointments.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498663-dc30a430-3f85-4e72-9328-df777eb81870.png">
 
   - Personal Information
+Edit personal information, including Role / Portrait / Date of birth / User name / Name / Address / Password / Gender / Phone / Email  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498722-5448f8ab-3119-4bbc-89e8-af1aa3c68989.png">
 
 
 ### 3.4 Administrator
+  - Administrator's homepage, with dashboard and local time.  
+Three functions can be found on the left: Doctor Management, Patient Management, Announcement, Department Management.  
+You can also see the hospital's notice here.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156497982-0050476e-175c-4535-87c2-07af78f45b00.png">
 
 
