@@ -90,19 +90,19 @@ Three functions can be found on the left: Appointment List, Patient History and 
 You can also see the hospital's notice here.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498534-010d978c-2d5f-4ad7-b72c-e15c63e2b403.png">
 
-  - Patient List
+  - Patient List  
 Show all the patients applying for an appointment, can click the button to accept.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498557-647069c8-d018-4e1a-a109-40876f0b677e.png">
 
-  - Appointment
+  - Appointment  
 Show all the appointments, with information of the patient, can add test result here.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498576-682a938f-3dbf-4bb3-afab-67077ac55c5d.png">
 
-  - Medical List
+  - Medical List  
 Assign medical measurements to appointments.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498663-dc30a430-3f85-4e72-9328-df777eb81870.png">
 
-  - Personal Information
+  - Personal Information  
 Edit personal information, including Role / Portrait / Date of birth / User name / Name / Address / Password / Gender / Phone / Email  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156498722-5448f8ab-3119-4bbc-89e8-af1aa3c68989.png">
 
@@ -112,19 +112,24 @@ Edit personal information, including Role / Portrait / Date of birth / User name
 Three functions can be found on the left: Doctor Management, Patient Management, Announcement, Department Management.  
 You can also see the hospital's notice here.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/156497982-0050476e-175c-4535-87c2-07af78f45b00.png">
+
   - My Panel   
 Three functions: Personal Information, Change Password and Log History.  
 Can see all the user's log history, including User Name, IP and Time.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/159111378-6ff049b7-7bc4-45f3-8461-2873aaae67bc.png">
+
   - Doctor Management  
 Show doctor list, including all the doctors' personal information, can edit/add/delete.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/159111445-1b0e6674-7cf6-4f81-9f34-03b1a626b7f5.png">
+
   - Patient Management  
 Show patient list, including all the patients' personal information, can edit/add/delete.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/159111470-9875457d-0ed7-40ad-bfe1-d7c03a3b7ffb.png">
+
   - Announcement  
 Post/delete a notice on the bulletin board.  
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/159111488-0e9bb524-a147-4c8e-b1fd-678f49d7052b.png">
+
   - Department Management  
 Department list, can add/delete departments of the hospital.
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/78338843/159111508-290c9fff-5e79-4580-9898-39daa047e6d5.png">
