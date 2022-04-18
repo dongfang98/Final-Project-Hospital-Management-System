@@ -1,5 +1,5 @@
 # Project2-Hospital-Management-System
-I implement some basic functions as a Java Web application, and deploy it to AWS.  
+We implement some basic functions as a Java Web application, and deploy it to AWS.  
 [1. User Story](#user-story)  
 [2. Environment](#environment)  
 [3. Hospital Management System](#hospital-management-system )  
