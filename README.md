@@ -31,7 +31,7 @@ We implement some basic functions as a Java Web application, and deploy it to AW
   - Manage patient list, add/delete/modify their information
   - Add/delete departments of the hospital
   - Manage appointment list
-  - Post a notice on the bulletin board
+  - Post notice on the bulletin board
 
 ## Environment
 ```
